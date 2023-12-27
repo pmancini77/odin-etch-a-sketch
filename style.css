@@ -1,0 +1,25 @@
+
+.container {
+    display: flex;
+    max-height: 765px;
+    min-height: 765px;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+.grid {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    flex: 1;
+    box-sizing: border-box;
+}
+
+.square {
+    border: 2px solid black;
+    height: 75px;
+    box-sizing: border-box;
+    flex: 1;
+    background-color: white;
+}
+
